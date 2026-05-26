@@ -228,6 +228,193 @@
 </div>
 </section>
 
+<!-- ÉQUIPEMENTS & CONSOMMABLES -->
+<style>
+/* ── SECTION ÉQUIPEMENTS ── */
+#equipements { padding: 0 48px 120px; max-width: 1200px; margin: 0 auto; }
+.eq-head { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 56px; }
+
+/* Intro cards */
+.eq-intro-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-bottom: 64px; }
+.eq-intro-card {
+  padding: 28px 24px; background: #080809;
+  border-left: 2px solid transparent;
+  transition: background .3s, border-color .3s;
+}
+.eq-intro-card:nth-child(1) { border-color: var(--c); }
+.eq-intro-card:nth-child(2) { border-color: var(--m); }
+.eq-intro-card:nth-child(3) { border-color: var(--y); }
+.eq-intro-card:hover { background: #0d0d11; }
+.eq-intro-icon { font-size: 22px; margin-bottom: 12px; }
+.eq-intro-title {
+  font-family: var(--font-h); font-style: italic;
+  font-size: 18px; color: #fff; margin-bottom: 8px;
+}
+.eq-intro-desc { font-size: 13px; font-weight: 300; color: var(--muted); line-height: 1.65; font-family: var(--font-b); }
+
+/* Deux colonnes machines + consommables */
+.eq-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; margin-bottom: 48px; }
+.eq-col { background: #080809; padding: 36px 32px; }
+.eq-col-title {
+  font-family: var(--font-h); font-style: italic;
+  font-size: 24px; color: #fff; margin-bottom: 24px;
+  padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,.06);
+  display: flex; align-items: center; gap: 12px;
+}
+.eq-col-title .eq-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.eq-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.eq-list li {
+  font-family: var(--font-b); font-size: 13px; font-weight: 300;
+  color: rgba(255,255,255,.55); padding: 10px 14px;
+  border-radius: 8px; background: rgba(255,255,255,.02);
+  display: flex; align-items: flex-start; gap: 10px;
+  transition: background .25s, color .25s;
+}
+.eq-list li:hover { background: rgba(255,255,255,.05); color: rgba(255,255,255,.85); }
+.eq-list li::before {
+  content: '→'; font-size: 11px; margin-top: 1px; flex-shrink: 0;
+}
+.eq-col:nth-child(1) .eq-list li::before { color: var(--c); }
+.eq-col:nth-child(2) .eq-list li::before { color: var(--y); }
+
+/* Citation finale */
+.eq-cta {
+  background: linear-gradient(135deg, rgba(0,174,239,.07) 0%, rgba(236,0,140,.05) 50%, rgba(252,209,22,.05) 100%);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 16px; padding: 36px 40px;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  flex-wrap: wrap;
+}
+.eq-cta-text {
+  font-family: var(--font-h); font-style: italic;
+  font-size: clamp(16px, 2vw, 22px); color: #fff;
+  max-width: 680px; line-height: 1.5;
+}
+.eq-cta-text .wc { color: var(--c); }
+.eq-cta-text .wm { color: var(--m); }
+.eq-cta-text .wy { color: var(--y); }
+
+/* Mobile */
+@media (max-width: 860px) {
+  #equipements { padding: 0 20px 80px; }
+  .eq-intro-grid { grid-template-columns: 1fr; }
+  .eq-cols { grid-template-columns: 1fr; }
+  .eq-head { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .eq-cta { flex-direction: column; text-align: center; }
+}
+
+/* ── FIX SERVICES MOBILE : tap = active ── */
+@media (hover: none), (max-width: 860px) {
+  .srv-row.active { padding: 42px 0; }
+  .srv-row.active::after { transform: scaleX(1); }
+  .srv-row.active .srv-tags { opacity: 1; transform: none; }
+  .srv-row.active .srv-arr { }
+  .srv-row.rc.active .srv-arr { background: var(--c); border-color: var(--c); }
+  .srv-row.rm.active .srv-arr { background: var(--m); border-color: var(--m); }
+  .srv-row.ry.active .srv-arr { background: var(--y); border-color: var(--y); }
+  .srv-row.rk.active .srv-arr { background: #fff; border-color: #fff; }
+  .srv-row.rc.active .srv-name { color: var(--c); }
+  .srv-row.rm.active .srv-name { color: var(--m); }
+  .srv-row.ry.active .srv-name { color: var(--y); }
+  .srv-row.active .srv-arr svg { stroke: #000; }
+  /* Sur mobile afficher les tags directement (pas besoin de tap) */
+  .srv-tags { display: flex !important; opacity: 1 !important; transform: none !important; flex-wrap: wrap; }
+}
+</style>
+
+<section style="padding:0 0 0;background:var(--bg)">
+<div id="equipements">
+  <div class="eq-head reveal">
+    <div>
+      <div class="s-badge lg">Au-delà de l'impression</div>
+      <h2 class="s-title">Équipements & <span class="wc">Consommables</span></h2>
+    </div>
+    <p class="s-sub">Fourniture directe depuis la <span style="color:var(--y)">Chine</span> ou disponible localement.</p>
+  </div>
+
+  <!-- 3 cartes intro -->
+  <div class="eq-intro-grid reveal">
+    <div class="eq-intro-card">
+      <div class="eq-intro-icon">🇨🇳</div>
+      <div class="eq-intro-title">Import direct Chine</div>
+      <div class="eq-intro-desc">Approvisionnement direct selon vos besoins, aux meilleurs prix du marché professionnel.</div>
+    </div>
+    <div class="eq-intro-card">
+      <div class="eq-intro-icon">📦</div>
+      <div class="eq-intro-title">Stock local disponible</div>
+      <div class="eq-intro-desc">Disponibilité sur place selon stock en pays. Livraison et assistance au lancement incluses.</div>
+    </div>
+    <div class="eq-intro-card">
+      <div class="eq-intro-icon">🎯</div>
+      <div class="eq-intro-title">Conseil personnalisé</div>
+      <div class="eq-intro-desc">Accompagnement dans le choix des équipements adaptés à votre activité et votre budget.</div>
+    </div>
+  </div>
+
+  <!-- Machines + Consommables -->
+  <div class="eq-cols reveal">
+
+    <!-- Colonne machines -->
+    <div class="eq-col">
+      <div class="eq-col-title">
+        <span class="eq-dot" style="background:var(--c)"></span>
+        Machines industrielles
+      </div>
+      <ul class="eq-list">
+        <li>Imprimante numérique grand format <span style="color:rgba(255,255,255,.3);font-size:11px;margin-left:auto">bâches · affiches · stickers · branding véhicule</span></li>
+        <li>Machine d'impression DTF <span style="color:rgba(255,255,255,.3);font-size:11px;margin-left:auto">T-shirts · textiles</span></li>
+        <li>Machine de sublimation <span style="color:rgba(255,255,255,.3);font-size:11px;margin-left:auto">tasses · polos · mugs</span></li>
+        <li>Presse à chaud multifonction</li>
+        <li>Traceur de découpe (plotter)</li>
+        <li>Machine UV d'impression <span style="color:rgba(255,255,255,.3);font-size:11px;margin-left:auto">supports rigides</span></li>
+        <li>Machine d'impression offset <span style="color:rgba(255,255,255,.3);font-size:11px;margin-left:auto">grands volumes</span></li>
+        <li>Machine de laminage / pelliculage</li>
+        <li>Machine de découpe papier industrielle</li>
+        <li>Machine de reliure</li>
+        <li>Machine de sérigraphie</li>
+        <li>Machine de finition et façonnage</li>
+      </ul>
+    </div>
+
+    <!-- Colonne consommables -->
+    <div class="eq-col">
+      <div class="eq-col-title">
+        <span class="eq-dot" style="background:var(--y)"></span>
+        Consommables d'imprimerie
+      </div>
+      <ul class="eq-list">
+        <li>Encres <span style="color:rgba(255,255,255,.3);font-size:11px;margin-left:auto">DTF · sublimation · UV · offset · éco-solvant</span></li>
+        <li>Papier photo · papier couché · papier offset</li>
+        <li>Vinyle adhésif</li>
+        <li>Bâches publicitaires</li>
+        <li>Films de transfert DTF</li>
+        <li>Rouleaux de lamination</li>
+        <li>Cartouches et têtes d'impression</li>
+        <li>Tasses vierges pour sublimation</li>
+        <li>T-shirts · polos · pull-overs vierges</li>
+        <li>Poudre DTF</li>
+        <li>Ruban thermique</li>
+        <li>Produits de nettoyage pour machines</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Citation CTA -->
+  <div class="eq-cta reveal">
+    <p class="eq-cta-text">
+      « Nous fournissons des consommables et matériels professionnels d'imprimerie,
+      disponibles <span class="wc">localement</span> ou importés directement de
+      <span class="wy">Chine</span> selon les besoins de nos <span class="wm">clients</span>. »
+    </p>
+    <a href="#contact-wrap" class="btn-c" style="border-radius:999px;padding:14px 32px;font-size:12px;white-space:nowrap">
+      Demander un devis →
+    </a>
+  </div>
+
+</div>
+</section>
+
 <!-- QUOTE -->
 <section id="quote" class="reveal">
   <div class="cmyk-bar"><span class="cc"></span><span class="mm"></span><span class="yy"></span><span class="kk"></span></div>
@@ -462,6 +649,23 @@
     </div>
   </footer>
 </div>
+
+<!-- FIX MOBILE : tap sur les lignes de services -->
+<script>
+(function() {
+  const isTouchDevice = ('ontouchstart' in window) || window.matchMedia('(hover: none)').matches;
+  if (!isTouchDevice) return;
+  document.querySelectorAll('.srv-row').forEach(row => {
+    row.addEventListener('click', () => {
+      const isActive = row.classList.contains('active');
+      // Fermer tous les autres
+      document.querySelectorAll('.srv-row').forEach(r => r.classList.remove('active'));
+      // Toggle celui cliqué
+      if (!isActive) row.classList.add('active');
+    });
+  });
+})();
+</script>
 
 <!-- SCRIPT PRINCIPAL -->
 <script type="module" src="./js/main.js"></script>
