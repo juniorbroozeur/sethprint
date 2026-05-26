@@ -7,6 +7,27 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/sethvf.css">
+<style>
+/* ── VIDEO MOBILE FIX ── */
+@media (max-width: 860px), (hover: none) {
+  .hero-video-wrap video,
+  .vs-v {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    transform: none !important;
+    will-change: auto !important;
+    min-width: unset !important;
+    min-height: unset !important;
+  }
+}
+.hero-video-wrap {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+</style>
 </head>
 <body>
 
