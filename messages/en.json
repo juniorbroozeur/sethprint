@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "catalogue": "Catalogue",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact",
+    "devis": "Get a quote"
+  },
+  "hero": {
+    "badge": "Lubumbashi · DRC · Visual Communication",
+    "title_line1": "Your Image,",
+    "title_line2": "Our Creativity.",
+    "subtitle": "Premium custom printing, creative graphic design and digital solutions",
+    "subtitle_em": "Work Perfection",
+    "cta_discover": "Discover our Creations",
+    "cta_quote": "Request a Quote",
+    "cta_studio": "3D Studio",
+    "stat_projects": "Projects completed",
+    "stat_cities": "Cities served",
+    "stat_satisfaction": "Customer satisfaction"
+  },
+  "services": {
+    "title": "Our Services",
+    "web": "Website Creation",
+    "web_desc": "Showcase sites, e-commerce and custom web applications",
+    "impression": "Custom Printing",
+    "impression_desc": "T-shirts, hoodies, caps and more",
+    "materiel": "Printing Equipment",
+    "materiel_desc": "Machines and equipment imported from China and Thailand",
+    "badge": "What we do",
+    "title_pre": "Our",
+    "title_highlight": "Services",
+    "subtitle_line1": "Every project is a unique work,",
+    "subtitle_line2": "crafted with passion to bring your vision to life.",
+    "items": [
+      {
+        "num": "01", "color": "rc", "name": "Custom Printing",
+        "tags": ["T-Shirts","Hoodies","Mugs","Banners","Packaging","Bracelets","Portraits","Vehicle Branding"]
+      },
+      {
+        "num": "02", "color": "rm", "name": "Graphic Design",
+        "tags": ["Logos","Visual Identity","Posters","Social Media","Menus","Full Branding"]
+      },
+      {
+        "num": "03", "color": "ry", "name": "Website Creation",
+        "tags": ["Showcase Sites","E-Commerce","Portfolios","Responsive","SEO"]
+      },
+      {
+        "num": "04", "color": "rk", "name": "Business Cards & Flyers",
+        "tags": ["Premium Cards","Flyers","Brochures","Drafts"]
+      }
+    ]
+  },
+  "equipment": {
+    "badge": "Beyond printing",
+    "title_pre": "Equipment",
+    "title_highlight": "Consumables",
+    "subtitle_pre": "Direct supply from",
+    "subtitle_china": "China",
+    "subtitle_post": "or available locally.",
+    "machines_title": "Industrial Machines",
+    "consommables_title": "Printing Consumables",
+    "livraison_title": "International delivery available",
+    "cta_quote": "Request a quote",
+    "quote_pre": "\"We supply professional printing consumables and equipment, available",
+    "quote_local": "locally",
+    "quote_or": "or imported directly from",
+    "quote_china": "China",
+    "quote_needs_pre": "based on the needs of our",
+    "quote_clients": "clients",
+    "quote_end": ".\"",
+    "machines": [
+      { "name": "Large format digital printer", "tags": "banners · posters · stickers · vehicle branding" },
+      { "name": "DTF printing machine", "tags": "T-shirts · textiles" },
+      { "name": "Multi-function heat press", "tags": "" },
+      { "name": "Cutting plotter", "tags": "" },
+      { "name": "UV printing machine", "tags": "rigid materials" },
+      { "name": "Offset printing machine", "tags": "large volumes" },
+      { "name": "Laminating machine", "tags": "" },
+      { "name": "Industrial paper cutting machine", "tags": "" },
+      { "name": "Binding machine", "tags": "" },
+      { "name": "Screen printing machine", "tags": "" },
+      { "name": "Finishing machine", "tags": "" }
+    ],
+    "consommables": [
+      "Inks — DTF · sublimation · UV · offset · eco-solvent",
+      "Photo paper · coated paper · offset paper",
+      "Adhesive vinyl",
+      "Advertising banners",
+      "DTF transfer films",
+      "Laminating rolls",
+      "Cartridges and print heads",
+      "Blank sublimation mugs",
+      "Blank T-shirts · polos · hoodies",
+      "DTF powder",
+      "Heat tape",
+      "Machine cleaning products"
+    ],
+    "avantages": [
+      { "ico": "🇨🇳", "title": "Direct import from China", "desc": "Direct supply according to your needs, at the best professional market prices.", "color": "var(--c)" },
+      { "ico": "🇹🇭", "title": "Import from Thailand", "desc": "Quality equipment and consumables imported directly from Bangkok and Chiang Mai.", "color": "var(--m)" },
+      { "ico": "📦", "title": "Local stock available", "desc": "Availability on-site depending on country stock. Delivery and start-up assistance included.", "color": "var(--m)" },
+      { "ico": "🎯", "title": "Personalized advice", "desc": "Support in choosing equipment suited to your business and budget.", "color": "var(--y)" }
+    ],
+    "livraison": [
+      { "pays": "DRC", "villes": "Lubumbashi · Kinshasa · Kolwezi · Likasi", "color": "var(--c)", "flag": "🇨🇩" },
+      { "pays": "Zambia", "villes": "Lusaka · Ndola · Kitwe", "color": "var(--m)", "flag": "🇿🇲" },
+      { "pays": "Tanzania", "villes": "Dar es Salaam · Dodoma · Mwanza", "color": "var(--y)", "flag": "🇹🇿" }
+    ]
+  },
+  "features": {
+    "badge": "Why choose us",
+    "title_1": "The",
+    "title_diff": "Difference",
+    "title_2": "is",
+    "title_all": "Everything",
+    "items": [
+      { "ico": "⚡", "name": "Fast Delivery", "desc": "Design to delivery in a few days. We respect your deadlines without compromising on quality." },
+      { "ico": "🎨", "name": "Unique Creativity", "desc": "Each design is created bespoke, reflecting the unique identity of your brand with precision." },
+      { "ico": "✨", "name": "Premium Quality", "desc": "High-quality materials and inks for brilliant, durable, and professional results." },
+      { "ico": "🚚", "name": "National Delivery", "desc": "Service available in 4 major cities of the DRC: Lubumbashi, Kinshasa, Kolwezi, Likasi." }
+    ]
+  },
+  "testimonials": {
+    "badge": "What they say",
+    "title_pre": "Don't just take",
+    "title_highlight": "our word for it",
+    "items": [
+      { "q": "\"Seth Print transformed our brand image. The print quality is absolutely exceptional — our clients keep complimenting us.\"", "name": "Marie Kabange", "role": "CEO, Lumière Boutique · Lubumbashi" },
+      { "q": "\"The business cards are gorgeous. The design is professional, modern, and the deadlines were met to the letter. Highly recommend!\"", "name": "Jean-Paul Mutombo", "role": "Director, Cabinet MPM · Kinshasa" },
+      { "q": "\"Our website is fast, beautiful and well ranked. The T-shirts for our event were perfect. A trusted partner for all our branding.\"", "name": "Aïcha Diallo", "role": "Brand Director, Nova Events · Kolwezi" }
+    ]
+  },
+  "product3d": {
+    "badge": "Interactive 3D Studio",
+    "title_pre": "Custom Hoodie",
+    "title_highlight": "360° View",
+    "desc": "Visualize your design on our products in real time. Rotate to see every detail of your custom print from every angle.",
+    "hint": "Drag to rotate",
+    "cta_order": "Order"
+  },
+  "delivery": {
+    "badge": "Availability",
+    "title_pre": "Nationwide",
+    "title_highlight": "Delivery",
+    "subtitle": "Service available in 4 major cities of the DRC",
+    "cities": [
+      { "name": "Lubumbashi", "flag": "Main Office" },
+      { "name": "Kolwezi", "flag": "Lualaba" },
+      { "name": "Likasi", "flag": "Haut-Katanga" },
+      { "name": "Kinshasa", "flag": "DRC Capital" }
+    ]
+  },
+  "contact": {
+    "badge": "Let's talk about your Project",
+    "title_pre": "Bring your",
+    "title_mid": "Vision",
+    "title_highlight": "to Life",
+    "subtitle": "Contact us for a free, personalized quote. Fast response guaranteed.",
+    "ch_call": "Regular Call",
+    "ch_tiktok": "Follow our creations live",
+    "form_name": "Your Name",
+    "form_name_ph": "Jean-Pierre Mukendi",
+    "form_contact": "Email or WhatsApp",
+    "form_contact_ph": "+243 or email@...",
+    "form_service": "Service Type",
+    "form_service_default": "Select a service",
+    "opt_print": "Custom Printing",
+    "opt_design": "Graphic Design",
+    "opt_web": "Website Creation",
+    "opt_branding": "Full Branding",
+    "opt_cards": "Business Cards / Flyers",
+    "opt_other": "Other",
+    "form_message": "Your Message",
+    "form_message_ph": "Describe your project…",
+    "btn_send": "Send Message",
+    "btn_sent": "Message Sent ✓"
+  },
+  "footer": {
+    "desc": "Premium visual communication & printing based in Lubumbashi, DRC. Nationwide delivery to 4 cities.",
+    "col_services": "Services",
+    "s_print": "Printing",
+    "s_design": "Graphic Design",
+    "s_web": "Websites",
+    "s_branding": "Branding",
+    "col_products": "Products",
+    "p_textile": "T-Shirts & Hoodies",
+    "p_mugs": "Mugs & Bracelets",
+    "p_cards": "Business Cards",
+    "p_banners": "Banners & Posters",
+    "col_delivery": "Delivery",
+    "rights": "All rights reserved.",
+    "based_pre": "Based in"
+  },
+  "catalogue": {
+    "back_home": "Back to home",
+    "badge": "Our Portfolio",
+    "title_pre": "Product",
+    "title_highlight": "Catalogue",
+    "subtitle": "Discover all our work. Click on a product for details and to order directly.",
+    "cat_tous": "All",
+    "cat_textiles": "Textiles",
+    "cat_objets-promo": "Promo Items",
+    "cat_cartes-badges": "Cards & Badges",
+    "cat_emballages": "Packaging",
+    "cat_packaging": "Packaging",
+    "cat_impression-grand-format": "Large Format",
+    "lightbox_desc": "Professional high-definition printing. Available in several formats and finishes. Delivery throughout the DRC, Zambia and Tanzania.",
+    "order": "Order",
+    "order_message": "Hello, I would like to order",
+    "cta_badge": "Custom order",
+    "cta_title_pre": "Can't find",
+    "cta_title_highlight": "what you're looking for?",
+    "cta_desc": "Contact us directly — we produce any type of custom printing.",
+    "cta_button": "Contact on WhatsApp"
+  },
+  "showcase": {
+    "badge": "Our Portfolio",
+    "title_pre": "Our",
+    "title_highlight": "Work",
+    "see_more": "See More",
+    "items": [
+      { "num": "001", "img": "/images/portfolio/068EBA34-56CE-4ECB-A584-4798713E5CAF.PNG", "name": "Custom Hoodie", "tag": "Premium Printing" },
+      { "num": "002", "img": "/images/portfolio/37330E28-7B85-4115-8B5C-C2DFCD30F4F1.PNG", "name": "Custom T-Shirt", "tag": "Brand Identity" },
+      { "num": "003", "img": "/images/portfolio/AD3B4755-A404-4577-97D1-FF3FE2163AB2.PNG", "name": "Sweatshirt Branding", "tag": "Textile Branding" },
+      { "num": "004", "img": "/images/portfolio/068EBA34-56CE-4ECB-A584-4798713E5CAF.PNG", "name": "Event Badges", "tag": "Graphic Design" }
+    ]
+  },
+  "ticker": {
+    "items": ["Printing","T-Shirts","Branding","Graphic Design","Websites","Logos","Mugs","Bracelets","Posters","Business Cards"]
+  },
+  "videocta": {
+    "badge": "Our Promise",
+    "title_pre": "You dream.",
+    "title_we": "We",
+    "title_print": "print.",
+    "subtitle": "Share your vision. Our team handles the rest — design, printing, delivery. In days, not weeks.",
+    "cta": "Start a Project"
+  },
+  "about": {
+    "phrase_long": "We merge human creativity with excellent printing techniques to create visual experiences that captivate, convert and elevate your brand to the top.",
+    "phrase_short": "We turn your ideas into prints that make a mark."
+  }
+}

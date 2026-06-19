@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "catalogue": "Catalogue",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact",
+    "devis": "Demander un devis"
+  },
+  "hero": {
+    "badge": "Lubumbashi · RDC · Communication Visuelle",
+    "title_line1": "Votre Image,",
+    "title_line2": "Notre Créativité.",
+    "subtitle": "Impression personnalisée d'excellence, design graphique créatif et solutions digitales premium",
+    "subtitle_em": "Work Perfection",
+    "cta_discover": "Découvrir nos Créations",
+    "cta_quote": "Demander un Devis",
+    "cta_studio": "Studio 3D",
+    "stat_projects": "Projets réalisés",
+    "stat_cities": "Villes desservies",
+    "stat_satisfaction": "Satisfaction client"
+  },
+    "services": {
+    "title": "Nos Services",
+    "web": "Création de Sites Web",
+    "web_desc": "Sites vitrines, e-commerce et applications web sur mesure",
+    "impression": "Impression Personnalisée",
+    "impression_desc": "T-shirts, hoodies, casquettes et plus encore",
+    "materiel": "Matériel d'Impression",
+    "materiel_desc": "Machines et équipements importés de Chine et Thaïlande",
+    "badge": "Ce que nous faisons",
+    "title_pre": "Nos",
+    "title_highlight": "Services",
+    "subtitle_line1": "Chaque projet est une œuvre unique,",
+    "subtitle_line2": "conçue avec passion pour donner vie à votre vision.",
+    "items": [
+      {
+        "num": "01", "color": "rc", "name": "Impression Personnalisée",
+        "tags": ["T-Shirts","Pull-over","Tasses","Bâches","Emballages","Bracelets","Portraits","Branding Véhicule"]
+      },
+      {
+        "num": "02", "color": "rm", "name": "Design Graphique",
+        "tags": ["Logos","Identité Visuelle","Affiches","Réseaux Sociaux","Menus","Branding Complet"]
+      },
+      {
+        "num": "03", "color": "ry", "name": "Création de Sites Web",
+        "tags": ["Sites Vitrines","E-Commerce","Portfolios","Responsive","SEO"]
+      },
+      {
+        "num": "04", "color": "rk", "name": "Cartes de Visite & Flyers",
+        "tags": ["Cartes Premium","Flyers","Brochures","Drafts"]
+      }
+    ]
+  }
+  ,"equipment": {
+    "badge": "Au-delà de l'impression",
+    "title_pre": "Équipements",
+    "title_highlight": "Consommables",
+    "subtitle_pre": "Fourniture directe depuis la",
+    "subtitle_china": "Chine",
+    "subtitle_post": "ou disponible localement.",
+    "machines_title": "Machines industrielles",
+    "consommables_title": "Consommables d'imprimerie",
+    "livraison_title": "Livraison internationale disponible",
+    "cta_quote": "Demander un devis",
+    "quote_pre": "« Nous fournissons des consommables et matériels professionnels d'imprimerie, disponibles",
+    "quote_local": "localement",
+    "quote_or": "ou importés directement de",
+    "quote_china": "Chine",
+    "quote_needs_pre": "selon les besoins de nos",
+    "quote_clients": "clients",
+    "quote_end": ". »",
+    "machines": [
+      { "name": "Imprimante numérique grand format", "tags": "bâches · affiches · stickers · branding véhicule" },
+      { "name": "Machine d'impression DTF", "tags": "T-shirts · textiles" },
+      { "name": "Presse à chaud multifonction", "tags": "" },
+      { "name": "Traceur de découpe (plotter)", "tags": "" },
+      { "name": "Machine UV d'impression", "tags": "supports rigides" },
+      { "name": "Machine d'impression offset", "tags": "grands volumes" },
+      { "name": "Machine de laminage / pelliculage", "tags": "" },
+      { "name": "Machine de découpe papier industrielle", "tags": "" },
+      { "name": "Machine de reliure", "tags": "" },
+      { "name": "Machine de sérigraphie", "tags": "" },
+      { "name": "Machine de finition et façonnage", "tags": "" }
+    ],
+    "consommables": [
+      "Encres — DTF · sublimation · UV · offset · éco-solvant",
+      "Papier photo · papier couché · papier offset",
+      "Vinyle adhésif",
+      "Bâches publicitaires",
+      "Films de transfert DTF",
+      "Rouleaux de lamination",
+      "Cartouches et têtes d'impression",
+      "Tasses vierges pour sublimation",
+      "T-shirts · polos · pull-overs vierges",
+      "Poudre DTF",
+      "Ruban thermique",
+      "Produits de nettoyage pour machines"
+    ],
+    "avantages": [
+      { "ico": "🇨🇳", "title": "Import direct Chine", "desc": "Approvisionnement direct selon vos besoins, aux meilleurs prix du marché professionnel.", "color": "var(--c)" },
+      { "ico": "🇹🇭", "title": "Import Thaïlande", "desc": "Équipements et consommables de qualité importés directement depuis Bangkok et Chiang Mai.", "color": "var(--m)" },
+      { "ico": "📦", "title": "Stock local disponible", "desc": "Disponibilité sur place selon le stock en pays. Livraison et assistance au démarrage incluses.", "color": "var(--m)" },
+      { "ico": "🎯", "title": "Conseil personnalisé", "desc": "Accompagnement dans le choix des équipements adaptés à votre activité et à votre budget.", "color": "var(--y)" }
+    ],
+    "livraison": [
+      { "pays": "RDC", "villes": "Lubumbashi · Kinshasa · Kolwezi · Likasi", "color": "var(--c)", "flag": "🇨🇩" },
+      { "pays": "Zambie", "villes": "Lusaka · Ndola · Kitwe", "color": "var(--m)", "flag": "🇿🇲" },
+      { "pays": "Tanzanie", "villes": "Dar es Salaam · Dodoma · Mwanza", "color": "var(--y)", "flag": "🇹🇿" }
+    ]
+  },
+    "features": {
+    "badge": "Pourquoi nous choisir",
+    "title_1": "La",
+    "title_diff": "Différence",
+    "title_2": "est",
+    "title_all": "Tout",
+    "items": [
+      { "ico": "⚡", "name": "Livraison Rapide", "desc": "Conception à livraison en quelques jours. Nous respectons vos délais sans compromis sur la qualité." },
+      { "ico": "🎨", "name": "Créativité Unique", "desc": "Chaque design est créé sur mesure, reflétant l'identité unique de votre marque avec précision." },
+      { "ico": "✨", "name": "Qualité Premium", "desc": "Matériaux et encres de haute qualité pour des résultats éclatants, durables et professionnels." },
+      { "ico": "🚚", "name": "Livraison Nationale", "desc": "Service disponible dans 4 grandes villes de la RDC : Lubumbashi, Kinshasa, Kolwezi, Likasi." }
+    ]
+  },
+  "testimonials": {
+    "badge": "Ce qu'ils disent",
+    "title_pre": "Ne nous croyez",
+    "title_highlight": "pas sur parole",
+    "items": [
+      { "q": "\"Seth Print a transformé notre image de marque. La qualité d'impression est absolument exceptionnelle — nos clients ne cessent de nous complimenter.\"", "name": "Marie Kabange", "role": "CEO, Lumière Boutique · Lubumbashi" },
+      { "q": "\"Les cartes de visite sont magnifiques. Le design est professionnel, moderne, et les délais ont été respectés à la lettre. Je recommande vivement !\"", "name": "Jean-Paul Mutombo", "role": "Directeur, Cabinet MPM · Kinshasa" },
+      { "q": "\"Notre site web est rapide, beau et bien référencé. Les T-shirts pour notre événement étaient parfaits. Un partenaire de confiance pour tout notre branding.\"", "name": "Aïcha Diallo", "role": "Brand Director, Nova Events · Kolwezi" }
+    ]
+  },
+  "product3d": {
+    "badge": "Studio 3D Interactif",
+    "title_pre": "Pull-over Custom",
+    "title_highlight": "360° View",
+    "desc": "Visualisez votre design sur nos produits en temps réel. Faites pivoter pour voir chaque détail de votre impression personnalisée sous tous les angles.",
+    "hint": "Glisser pour faire pivoter",
+    "cta_order": "Commander"
+  },
+  "delivery": {
+    "badge": "Disponibilité",
+    "title_pre": "Livraison",
+    "title_highlight": "Nationale",
+    "subtitle": "Service disponible dans 4 grandes villes de la RDC",
+    "cities": [
+      { "name": "Lubumbashi", "flag": "Siège Principal" },
+      { "name": "Kolwezi", "flag": "Lualaba" },
+      { "name": "Likasi", "flag": "Haut-Katanga" },
+      { "name": "Kinshasa", "flag": "Capitale RDC" }
+    ]
+  },
+  "contact": {
+    "badge": "Parlons de votre Projet",
+    "title_pre": "Donnez Vie",
+    "title_mid": "à votre",
+    "title_highlight": "Vision",
+    "subtitle": "Contactez-nous pour un devis gratuit et personnalisé. Réponse rapide garantie.",
+    "ch_call": "Appel Normal",
+    "ch_tiktok": "Suivez nos créations en direct",
+    "form_name": "Votre Nom",
+    "form_name_ph": "Jean-Pierre Mukendi",
+    "form_contact": "Email ou WhatsApp",
+    "form_contact_ph": "+243 ou email@...",
+    "form_service": "Type de Service",
+    "form_service_default": "Sélectionner un service",
+    "opt_print": "Impression Personnalisée",
+    "opt_design": "Design Graphique",
+    "opt_web": "Création de Site Web",
+    "opt_branding": "Branding Complet",
+    "opt_cards": "Cartes de Visite / Flyers",
+    "opt_other": "Autre",
+    "form_message": "Votre Message",
+    "form_message_ph": "Décrivez votre projet…",
+    "btn_send": "Envoyer le Message",
+    "btn_sent": "Message Envoyé ✓"
+  },
+  "footer": {
+    "desc": "Communication visuelle & imprimerie premium basée à Lubumbashi, RDC. Livraison nationale dans 4 villes.",
+    "col_services": "Services",
+    "s_print": "Impression",
+    "s_design": "Design Graphique",
+    "s_web": "Sites Web",
+    "s_branding": "Branding",
+    "col_products": "Produits",
+    "p_textile": "T-Shirts & Pull-over",
+    "p_mugs": "Tasses & Bracelets",
+    "p_cards": "Cartes de Visite",
+    "p_banners": "Bâches & Affiches",
+    "col_delivery": "Livraison",
+    "rights": "Tous droits réservés.",
+    "based_pre": "Basée à"
+  },
+  "catalogue": {
+  "back_home": "Retour à l'accueil",
+    "badge": "Notre Portfolio",
+    "title_pre": "Catalogue",
+    "title_highlight": "Produits",
+    "subtitle": "Découvrez toutes nos réalisations. Cliquez sur un produit pour le détail et commander directement.",
+    "cat_tous": "Tous",
+    "cat_textiles": "Textiles",
+    "cat_objets-promo": "Objets Promo",
+    "cat_cartes-badges": "Cartes & Badges",
+    "cat_emballages": "Emballages",
+    "cat_packaging": "Packaging",
+    "cat_impression-grand-format": "Grand Format",
+    "lightbox_desc": "Impression professionnelle haute définition. Disponible en plusieurs formats et finitions. Livraison dans toute la RDC, Zambie et Tanzanie.",
+    "order": "Commander",
+    "order_message": "Bonjour, je voudrais commander",
+    "cta_badge": "Commande personnalisée",
+    "cta_title_pre": "Vous ne trouvez pas",
+    "cta_title_highlight": "ce que vous cherchez ?",
+    "cta_desc": "Contactez-nous directement — nous réalisons tout type d'impression sur mesure.",
+    "cta_button": "Contacter sur WhatsApp"
+  },
+    "showcase": {
+    "badge": "Notre Portfolio",
+    "title_pre": "Nos",
+    "title_highlight": "Réalisations",
+    "see_more": "Voir Plus",
+    "items": [
+      { "num": "001", "img": "/images/portfolio/068EBA34-56CE-4ECB-A584-4798713E5CAF.PNG", "name": "Pull-over Personnalisé", "tag": "Impression Premium" },
+      { "num": "002", "img": "/images/portfolio/37330E28-7B85-4115-8B5C-C2DFCD30F4F1.PNG", "name": "T-Shirt Custom", "tag": "Identité de Marque" },
+      { "num": "003", "img": "/images/portfolio/AD3B4755-A404-4577-97D1-FF3FE2163AB2.PNG", "name": "Sweatshirt Branding", "tag": "Branding Textile" },
+      { "num": "004", "img": "/images/portfolio/068EBA34-56CE-4ECB-A584-4798713E5CAF.PNG", "name": "Badges Événementiels", "tag": "Design Graphique" }
+    ]
+  },
+  "ticker": {
+    "items": ["Impression","T-Shirts","Branding","Design Graphique","Sites Web","Logos","Tasses","Bracelets","Affiches","Cartes de Visite"]
+  },
+  "videocta": {
+    "badge": "Notre Promesse",
+    "title_pre": "Vous rêvez.",
+    "title_we": "Nous",
+    "title_print": "imprimons.",
+    "subtitle": "Partagez votre vision. Notre équipe s'occupe du reste — design, impression, livraison. En jours, pas en semaines.",
+    "cta": "Démarrer un Projet"
+  },
+  "about": {
+    "phrase_long": "Nous fusionnons la créativité humaine avec des techniques d'impression d'excellence pour créer des expériences visuelles qui captivent, convertissent et élèvent votre marque au sommet.",
+    "phrase_short": "Nous transformons vos idées en impressions qui marquent."
+  }
+}
