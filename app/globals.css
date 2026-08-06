@@ -237,9 +237,9 @@ nav.scrolled { padding:8px 32px; background:rgba(6,6,8,.92); backdrop-filter:blu
 .ct-ch{display:flex;align-items:center;gap:14px;padding:15px 18px;border-radius:14px;border:1px solid rgba(255,255,255,.07);text-decoration:none;color:#fff;transition:border-color .3s,background .3s;font-family:var(--font-b)}
 .ct-ch:hover{border-color:rgba(255,255,255,.18);background:rgba(255,255,255,.03)}
 .ct-ico{width:34px;height:34px;flex-shrink:0;border-radius:50%;display:flex;align-items:center;justify-content:center}
-.ct-ch:nth-child(1) .ct-ico{background:rgba(37,211,102,.12)} .ct-ch:nth-child(2) .ct-ico{background:rgba(236,0,140,.12)} .ct-ch:nth-child(3) .ct-ico{background:rgba(252,209,22,.1)}
+.ct-ch:nth-child(1) .ct-ico{background:rgba(37,211,102,.12)} .ct-ch:nth-child(2) .ct-ico{background:rgba(236,0,140,.12)} .ct-ch:nth-child(3) .ct-ico{background:rgba(252,209,22,.1)} .ct-ch:nth-child(4) .ct-ico{background:rgba(225,48,108,.12)}
 .ct-ico svg{width:17px;height:17px}
-.ct-ch:nth-child(1) .ct-ico svg{fill:var(--wa)} .ct-ch:nth-child(2) .ct-ico svg{fill:none;stroke:var(--m);stroke-width:2} .ct-ch:nth-child(3) .ct-ico svg{fill:var(--y)}
+.ct-ch:nth-child(1) .ct-ico svg{fill:var(--wa)} .ct-ch:nth-child(2) .ct-ico svg{fill:none;stroke:var(--m);stroke-width:2} .ct-ch:nth-child(3) .ct-ico svg{fill:var(--y)} .ct-ch:nth-child(4) .ct-ico svg{fill:var(--p)}
 .ct-lbl{font-size:var(--text-xs);letter-spacing:var(--ls-caps);text-transform:uppercase;margin-bottom:2px;font-weight:400}
 .ct-ch:nth-child(1) .ct-lbl{color:var(--wa)} .ct-ch:nth-child(2) .ct-lbl{color:var(--m)} .ct-ch:nth-child(3) .ct-lbl{color:var(--y)}
 .ct-val{font-size:var(--text-sm);color:rgba(255,255,255,.68)}
