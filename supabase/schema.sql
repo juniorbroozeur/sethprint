@@ -28,3 +28,8 @@ insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_typ
 values ('catalogue', 'catalogue', true, 4194304,
         array['image/jpeg','image/png','image/webp'])
 on conflict (id) do nothing;
+
+-- 4. Droits explicites (« Automatically expose new tables » est désactivé) :
+--    seul le serveur (clé secrète / service_role) accède à la table.
+grant select, insert, update, delete on public.products to service_role;
+grant usage, select on all sequences in schema public to service_role;
