@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { isAdmin } from '@/lib/auth';
-import { getProducts } from '@/lib/products';
+import { getProducts } from '@/lib/catalogue-db';
 import LoginForm from './LoginForm';
 import AdminPanel from './AdminPanel';
 
